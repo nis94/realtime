@@ -1,0 +1,65 @@
+## .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.cache
+*.log
+
+## Visual Studio
+.vs/
+*.rsuser
+*.userprefs
+
+## Rider
+.idea/
+*.sln.iml
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+## OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Environment files
+.env
+.env.local
+.env.*.local
+appsettings.local.json
+
+## Docker
+docker-compose.override.yml
+
+## Docs (interview prep, task PDFs, scripts)
+docs/
+
+## Claude Code
+.claude/
+CLAUDE.md
+
+## Personal / local-only files
+INTERVIEW_PREP.md
+*.pdf
+scripts/
